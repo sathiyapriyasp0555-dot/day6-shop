@@ -1,6 +1,6 @@
 import products from "./products.js";
 import config from "./config.js";
-import { totalPrice, inStockCount, formatPrice } from "./utils.js";
+import { totalPrice, inStockCount, formatPrice, applyDiscount } from "./utils.js";
 import { totalPrice as sum } from "./utils.js";
 
 console.log(
@@ -11,3 +11,6 @@ console.log(sum(products) === totalPrice(products));
 products.forEach(p => {
   console.log(`${p.name} - ${formatPrice(p.price)}`);
 });
+const discountedProducts = applyDiscount(products, 10);
+console.log(formatPrice(discountedProducts[0].price));
+console.log(formatPrice(products[0].price));

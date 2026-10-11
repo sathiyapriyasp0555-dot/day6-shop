@@ -6,3 +6,8 @@ export const inStockCount = (list) =>
 
 export const formatPrice = (n) =>
   "₹" + n.toLocaleString("en-IN");
+export const applyDiscount = (list, percent) =>
+  list.map(p => ({
+    ...p,
+    price: p.price * (1 - percent / 100)
+  }));
