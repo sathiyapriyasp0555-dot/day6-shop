@@ -1,0 +1,24 @@
+{
+  "name": "web-day-6",
+  "version": "1.0.0",
+  "description": "A furniture catalogue project built with JavaScript modules.\r It includes product pricing, GST calculations, and stock utilities.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathiyapriyasp0555-dot/day6-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sathiyapriyasp0555-dot/day6-shop/issues"
+  },
+  "homepage": "https://github.com/sathiyapriyasp0555-dot/day6-shop#readme",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
+}
