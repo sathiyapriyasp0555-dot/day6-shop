@@ -1,0 +1,1 @@
+export default { gst: 0.18, currency: "INR" };
