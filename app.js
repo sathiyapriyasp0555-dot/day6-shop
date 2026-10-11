@@ -8,3 +8,6 @@ console.log(
 );
 
 console.log(sum(products) === totalPrice(products));
+products.forEach(p => {
+  console.log(`${p.name} - ${formatPrice(p.price)}`);
+});
